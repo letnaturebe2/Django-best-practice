@@ -6,7 +6,6 @@ from django.test import TestCase
 from django.test.utils import CaptureQueriesContext
 from django.utils import timezone
 
-from styleguide_example.blog_examples.models import TimestampsOpinionated
 from styleguide_example.common.factories import RandomModelFactory, SimpleModelFactory
 from styleguide_example.common.services import model_update
 
